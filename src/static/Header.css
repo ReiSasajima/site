@@ -1,0 +1,21 @@
+.HeaderWrapper{
+  height: 5em;
+  background-color: white;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  display: flex;
+  box-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+}
+.name{
+  font-weight: bold;
+}
