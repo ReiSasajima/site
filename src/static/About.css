@@ -1,7 +1,5 @@
 .AboutWrapper{
   background-color: #0080DE;
-  color: white;
-  height: 5em;
   width: 80%;
   height: fit-content;
   /* 内側の余白(padding) */
@@ -10,6 +8,9 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-  align-items: center;
-  justify-content: center;
+}
+.AboutWrapper > p, h1, h3{
+  text-align: center;
+  background-color: transparent;
+  color: white;
 }

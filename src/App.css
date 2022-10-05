@@ -1,14 +1,30 @@
-.App {
+/* .App {
   text-align: center;
   background-color: #F5F8FA;
   min-height: 100vh;
+} */
+/* ページ全体へのbackground適用 */
+*{
+  background-color: #F5F8FA;
 }
-
-.App-header {
+/* .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+/* ヘッダーのnavbar共通してのCSS適用 */
+.nav-bar{
+  height: 5em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar > a{
+  background-color: transparent;
+  font-size: larger;
 }
