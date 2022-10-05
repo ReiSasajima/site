@@ -6,7 +6,7 @@ const Collection = () => {
   return (
     <>
       <NavBar/>
-      <h1 className="section-title">My Autograph Collection</h1>
+      <h1 className="section-title">Autograph Collection</h1>
       <CollectionList/>
     </>
   )
