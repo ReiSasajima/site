@@ -7,28 +7,28 @@ import ChristianAlzmann from '../static/img/ChristianAlzmann.jpeg'
 const CollectionList = () => {
   return (
     <div className='List-Wrapper'>
-      <a className='List' href="">
+      <a className='List' href="fdfd">
         <div>
           <img src={DanielCraig} alt="作品の画像" />
           <h3 className='List-Title'>Daniel Craig</h3>
           <p className='List-Description'>James Bond/007 series</p>
         </div>
       </a>
-      <a className='List' href="">
+      <a className='List' href="fdfd">
         <div>
           <img src={MarkRuffalo} alt="作品の画像" />
           <h3 className='List-Title'>Mark Ruffalo</h3>
           <p className='List-Description'>Dr.Banner, Hulk/ Avengers series</p>
         </div>
       </a>
-      <a className='List' href="">
+      <a className='List' href="fdfd">
         <div>
           <img src={ChristianAlzmann} alt="作品の画像" />
           <h3 className='List-Title'>Christian Alzmann</h3>
           <p className='List-Description'>Concept Artist/StarWarsSeries</p>
         </div>
       </a>
-      <a className='List' href="">
+      <a className='List' href="fdfd">
         <div>
           <img src={BountyHunters} alt="作品の画像" />
           <h3 className='List-Title'>BountyHunters</h3>
