@@ -1,0 +1,53 @@
+.List-Wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.List{
+  background-color: none;
+  height: fit-content;
+  width: 45%;
+  padding:1em;
+  margin-top: 1em;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* 文字を中央寄せ */
+  text-align: center;
+  /* border: solid 0.1px black; */
+}
+.List-Title{
+  color: white;
+}
+.List-Description{
+  color: white;
+}
+img{
+  /* border: solid 2px black; */
+  height: 200px;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .List-Wrapper{
+    width: 80%;
+  }
+  .List {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .List-Wrapper{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .List{
+    width: 90%;
+  }
+
+}

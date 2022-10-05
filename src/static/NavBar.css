@@ -1,3 +1,17 @@
+.nav-bar{
+  background-color: #262626;
+  height: 5em;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+.nav-bar a{
+  color: white;
+}
 .ReiSasajima{
-  font-weight: bold;
+  font-weight: bolder;
 }

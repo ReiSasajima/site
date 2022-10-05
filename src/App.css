@@ -4,8 +4,9 @@
   min-height: 100vh;
 } */
 /* ページ全体へのbackground適用 */
-*{
-  background-color: #F5F8FA;
+body{
+  background-color: #1f1f1f;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* .App-header {
   display: flex;
@@ -16,15 +17,13 @@
   color: white;
 } */
 /* ヘッダーのnavbar共通してのCSS適用 */
-.nav-bar{
-  height: 5em;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 .nav-bar > a{
   background-color: transparent;
   font-size: larger;
+}
+.section-title{
+  margin-top: 5em;
+  text-align: center;
+  color: white;
 }

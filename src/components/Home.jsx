@@ -4,7 +4,8 @@ import About from './About'
 const Home = () => {
   return (
     <>
-      <NavBar/>
+      <NavBar />
+      <h1 className='section-title'>About</h1>
       <About/>
     </>
   )

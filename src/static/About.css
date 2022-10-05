@@ -9,7 +9,22 @@
   margin-right: auto;
   border-radius: 15px;
 }
-.AboutWrapper > p, h1, h3{
+.AboutWrapper p h1 h3{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.AboutWrapper-name{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.AboutWrapper-description{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.AboutWrapper-skill{
   text-align: center;
   background-color: transparent;
   color: white;
