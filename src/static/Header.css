@@ -17,5 +17,11 @@ a{
   text-decoration: none;
 }
 .name{
-  font-weight: bold;
+  font-weight:bold;
+}
+.works{
+  font-weight: 300;
+}
+.collection{
+  font-weight: 300;
 }

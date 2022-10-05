@@ -3,11 +3,13 @@
   color: white;
   height: 5em;
   width: 80%;
+  height: fit-content;
+  /* 内側の余白(padding) */
+  padding: 0.3em;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
