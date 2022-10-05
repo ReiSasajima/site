@@ -1,0 +1,23 @@
+.Socialmedia-wrapper{
+  background-color: #262626;
+  width: 80%;
+  height: fit-content;
+  /* marginautoで中央寄せ */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  border-radius: 15px;
+}
+ul{
+  text-align: center;
+}
+li{
+  list-style: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+li > a{
+  color: white;
+}
