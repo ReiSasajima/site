@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   margin-top: 1em;
+  /* 内側の余白(padding) */
+  padding: 0.3em;
   border-radius: 15px;
 }
 ul{
@@ -20,4 +22,6 @@ li{
 }
 li > a{
   color: white;
+  font-size: xx-large;
+  font-weight: bold;
 }
