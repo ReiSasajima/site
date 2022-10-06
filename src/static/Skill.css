@@ -1,6 +1,6 @@
 .Skill-Wrapper{
   background-color: #DFF6FF;
-  width: 80%;
+  width: 500px;
   padding: 0.3em;
   margin-top: 1em;
   margin-left: auto;
@@ -16,4 +16,9 @@
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 550px) {
+  .Skill-Wrapper{
+    width: 350px;
+  }
 }
