@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 // エントリポイント(index.js)を介してのimport
-import { Socialmedia, Twitter } from './components/index'
+// import { Socialmedia, Twitter } from './components/index'
 import Works from './components/Works'
 import Collection from './components/Collection'
 import Home from './components/Home'
