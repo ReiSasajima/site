@@ -49,6 +49,13 @@ img{
     margin-right: auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .List-Wrapper{
+    width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 @media screen and (max-width: 375vpx) {
   .List-Wrapper{
     width: 100%;

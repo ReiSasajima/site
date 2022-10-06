@@ -7,10 +7,8 @@ const Collection = () => {
   return (
     <>
       <NavBar />
-      <AnimatedPage>
-        <h1 className="section-title">Autograph Collection</h1>
-        <CollectionList />
-      </AnimatedPage>
+      <h1 className="section-title">Autograph Collection</h1>
+      <CollectionList />
     </>
   )
 }

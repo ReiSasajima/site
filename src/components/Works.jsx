@@ -6,11 +6,9 @@ import AnimatedPage from "./AnimatedPage"
 const Works = () => {
   return (
     <>
-      <NavBar />
-      <AnimatedPage>
-        <h1 className="section-title">WorksPage</h1>
-        <WorksList/>
-      </AnimatedPage>
+      <NavBar/>
+      <h1 className="section-title">Works</h1>
+      <WorksList/>
     </>
   )
 }
