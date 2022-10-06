@@ -1,18 +1,5 @@
-.Socialmedia-wrapper{
-  background-color: #262626;
-  width: 80%;
-  height: fit-content;
-  /* marginautoで中央寄せ */
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  /* 内側の余白(padding) */
-  padding: 0.3em;
-  border-radius: 15px;
-}
-ul{
+
+/* ul{
   text-align: center;
 }
 li{
@@ -24,4 +11,4 @@ li > a{
   color: white;
   font-size: xx-large;
   font-weight: bold;
-}
+} */
