@@ -1,12 +1,10 @@
-import '../static/Twitter.css'
+import '../static/Socialmedia.css'
 
 const Twitter = () => {
   return (
-    <div className="Twitter-wrapper">
-      <a className='twitter' href='https://twitter.com/r315513'>
-        <h3>Twitter</h3>
+      <a className='Twitter' href='https://twitter.com/r315513' target="_blank" rel="noreferrer noopener">
+        <p>Twitter</p>  
       </a>
-    </div>
   )
 }
 export default Twitter

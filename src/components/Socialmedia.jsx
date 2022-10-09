@@ -1,16 +1,12 @@
 import '../static/Socialmedia.css'
+import Twitter from '../components/Twitter'
+import Github from '../components/GitHub'
 
 const Socialmedia = () => {
   return (
-    <div className="Socialmedia-wrapper">
-      <ul>
-        <li>
-          <a className='twitter' href='https://twitter.com/r315513'>Twitter</a>
-        </li>
-        <li>
-          <a className='github' href='https://twitter.com/r315513'>GitHub</a>
-        </li>
-      </ul>
+    <div className='Socialmedia-Wrapper'>
+      <Github/>
+      <Twitter/>
     </div>
   )
 }
