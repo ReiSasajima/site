@@ -22,7 +22,6 @@
 .Github > p{
   color: white;
   display: inline-block;
-  font-weight: bold;
 }
 .Twitter{
   display: inline-block;
@@ -38,7 +37,6 @@
 .Twitter > p{
   color: white;
   display: inline-block;
-  font-weight: bold;
 }
 @media screen and (max-width: 550px) {
   .Socialmedia-Wrapper{
@@ -47,7 +45,7 @@
   }
   .Github, .Twitter{
     display: block;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 100%;
   }
 }
