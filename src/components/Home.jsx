@@ -2,7 +2,7 @@ import NavBar from './NavBar';
 import About from './About'
 import { Skill } from './index'
 
-import AnimatedPage from './AnimatedPage';
+// import AnimatedPage from './AnimatedPage';
 
 const Home = () => {
   return (
