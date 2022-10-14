@@ -17,6 +17,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.Skill-Wrapper > a >h3{
+  text-align: center;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (max-width: 550px) {
   .Skill-Wrapper{
     width: 350px;
