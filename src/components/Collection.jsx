@@ -12,7 +12,7 @@ import IanWhyte from '../static/img/ianwhyte.jpeg'
 import PalmerLuckey from '../static/img/palmerluckey.jpeg'
 import judidench from '../static/img/judidench.png'
 import cantina from '../static/img/cantina.jpeg'
-// import comingsoon from '../static/img/comingsoon.png'
+// import soon from '../static/img/comingsoon.png'
 
 const Collection = () => {
   return (
@@ -30,7 +30,6 @@ const Collection = () => {
         <CollectionList img={IanWhyte} name={'Ian Whyte'} text={'Crusher/StarWars7'} src={'https://drive.google.com/file/d/0B9wDaYRoFn5QXzl5RDkzVUhadkE/view?usp=sharing&resourcekey=0-mUhKUZiZXxl33pBEComH0A'} />
         <CollectionList img={judidench} name={'Judi Dench'} text={'M / 007 series'} src={'https://drive.google.com/file/d/1-B1qh5XgC2JP3NuPbOhhA2itz8dPTRu2/view?usp=sharing'} />
         <CollectionList img={cantina} name={'Cantina Band'} text={'StarWars Series'} src={'https://drive.google.com/file/d/1AfkB2dGS7MtL1rHEv46IHmWxyuF_KmvV/view?usp=sharing'} />
-        
       </div>
     </>
   )
