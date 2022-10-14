@@ -6,7 +6,7 @@ const CollectionList = (props) => {
   // const autographs = useContext(AutographsContext)
 
   return (
-      <a className='List' href="fdfd">
+      <a className='List' href={props.src} target="_blank" rel="noreferrer noopener">
         <div>
           <img src={props.img} alt="danielcraig" />
           <h3 className='List-Title'>{ props.name}</h3>

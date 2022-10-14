@@ -8,6 +8,7 @@ import ChristianAlzmann from '../static/img/ChristianAlzmann.jpeg'
 import BountyHunters from '../static/img/bountyhunters.jpeg'
 import PhilTippett from '../static/img/philtippett.jpeg'
 import PaulKasey from '../static/img/paulkasey.jpeg'
+import IanWhyte from '../static/img/ianwhyte.jpeg'
 
 const Collection = () => {
   return (
@@ -17,10 +18,11 @@ const Collection = () => {
       <div className='List-Wrapper'>
         <CollectionList img={DanielCraig} name={'Daniel Craig'} text={ 'James Bond / 007 Series'} />
         <CollectionList img={MarkRuffalo} name={'Mark Ruffalo'} text={'Dr.Bruce Banner Hulk / Avengers Series'}/>
-        <CollectionList img={ChristianAlzmann} name={'ChristianAlzmann'} text={'Concept Designer/ StarWars Series'} />
+        <CollectionList img={ChristianAlzmann} name={'Christian Alzmann'} text={'Concept Designer/ StarWars Series'} />
         <CollectionList img={BountyHunters} name={'BountyHunters'} text={"Bill Hargreaves・Jeremy Bulloch・Allan Harris・Chris Parsons・Cathy Monro"} />
-        <CollectionList img={PhilTippett} name={'PhilTippett'} text={'VFX・StopMotion artist/ StarWars Series'} />
-        <CollectionList img={PaulKasey} name={'PaulKasey'} text={'Admiral Raddus / StarWars Rogue One'} />
+        <CollectionList img={PhilTippett} name={'Phil Tippett'} text={'VFX・StopMotion artist/ StarWars Series'} src={'https://drive.google.com/file/d/0B9wDaYRoFn5QRzdxWHZDN3RjT1U/view?usp=sharing&resourcekey=0-iLvsQuLYA3fPfHaxcreUug'} />
+        <CollectionList img={PaulKasey} name={'Paul Kasey'} text={'Admiral Raddus / StarWars Rogue One'} />
+        <CollectionList img={IanWhyte} name={'Ian Whyte'} text={'Crusher/StarWars7'} src={'https://drive.google.com/file/d/0B9wDaYRoFn5QXzl5RDkzVUhadkE/view?usp=sharing&resourcekey=0-mUhKUZiZXxl33pBEComH0A'} />
       </div>
     </>
   )
