@@ -8,6 +8,9 @@ import agusyllabus from '../static/img/agusyllabus.jpeg'
 import senryu from '../static/img/senryu.png'
 import rinri from '../static/img/RinriHatanThumbnail.png'
 import one from '../static/img/ONE.jpg'
+import classroom from '../static/img/17classroom.png'
+import ending from '../static/img/ending.png'
+import jetlag from '../static/img/jetlag.png'
 
 
 const Works = () => {
@@ -16,7 +19,7 @@ const Works = () => {
       <NavBar/>
       <h1 className="section-title">Works</h1>
       <div className="List-Wrapper">
-        <WorksList img={tadable} name={'Tadable'} text={'無料で見れる漫画'}
+        <WorksList img={tadable} name={'Tadable'} text={'Service to find where to read free comics'}
           src={'https://tadable.herokuapp.com/'} />
         <WorksList img={baccarat} name={'Baccarat Ranking'} text={'Ranking system for school festival'}
           src={'https://casinorank.herokuapp.com/'} />
@@ -29,6 +32,12 @@ const Works = () => {
           src={'https://youtu.be/ZWRIBzV1HWU'} />
         <WorksList img={one} name={'メイキング映像『Creating One』'} text={"Behind the scenes of Music Video 'One' "}
           src={'https://www.youtube.com/watch?v=bnoYtpCUaJM'} />
+        <WorksList img={classroom} name={'17classroom'} text={"Created 3d model of classroom in University"}
+          src={''} />
+        <WorksList img={ending} name={'Endingroll of 2021 recital'} text={"Ending roll"}
+          src={''} />
+        <WorksList img={jetlag} name={'Shortfilm Jetlag'} text={"Created short film"}
+          src={''} />
 
       </div>
     </>
