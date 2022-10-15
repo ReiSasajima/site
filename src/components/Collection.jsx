@@ -2,7 +2,7 @@ import '../static/Collection.css'
 import NavBar from "./NavBar";
 import CollectionList from "./CollectionList";
 // import AnimatedPage from './AnimatedPage';
-import DanielCraig from '../static/img/danielcraig.jpeg'
+import DanielCraig from '../static/img/danielcraig-mini.png'
 import MarkRuffalo from '../static/img/markruffalo.jpeg'
 import ChristianAlzmann from '../static/img/ChristianAlzmann.jpeg'
 import BountyHunters from '../static/img/bountyhunters.jpeg'
@@ -12,6 +12,7 @@ import IanWhyte from '../static/img/ianwhyte.jpeg'
 import PalmerLuckey from '../static/img/palmerluckey.jpeg'
 import judidench from '../static/img/judidench.png'
 import cantina from '../static/img/cantina.jpeg'
+import bobafett from '../static/img/bobafett.png'
 // import soon from '../static/img/comingsoon.png'
 
 const Collection = () => {
@@ -30,6 +31,7 @@ const Collection = () => {
         <CollectionList img={IanWhyte} name={'Ian Whyte'} text={'Crusher/StarWars7'} src={'https://drive.google.com/file/d/0B9wDaYRoFn5QXzl5RDkzVUhadkE/view?usp=sharing&resourcekey=0-mUhKUZiZXxl33pBEComH0A'} />
         <CollectionList img={judidench} name={'Judi Dench'} text={'M / 007 series'} src={'https://drive.google.com/file/d/1-B1qh5XgC2JP3NuPbOhhA2itz8dPTRu2/view?usp=sharing'} />
         <CollectionList img={cantina} name={'Cantina Band'} text={'StarWars Series'} src={'https://drive.google.com/file/d/1AfkB2dGS7MtL1rHEv46IHmWxyuF_KmvV/view?usp=sharing'} />
+        <CollectionList img={bobafett} name={'Jeremy Bulloch'} text={'BobaFett/StarWars Series'} src={'https://drive.google.com/file/d/0B9wDaYRoFn5QOWk1a0RhNFUzY2s/view?usp=sharing&resourcekey=0-CPPJuiTG58LXtOuhlW1B0w'} />
       </div>
     </>
   )
