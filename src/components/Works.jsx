@@ -14,6 +14,7 @@ import jetlag from '../static/img/jetlag.png'
 import virtualcampus from '../static/img/virtualcampus.png'
 import githubmicro from '../static/img/githubmicro.png'
 import cynical from '../static/img/cynicalnight.png'
+import empty from '../static/img/empty.png'
 
 
 
@@ -23,6 +24,8 @@ const Works = () => {
       <NavBar/>
       <h1 className="section-title">Works</h1>
       <div className="List-Wrapper">
+        <WorksList img={empty} name={'アオガク空き教室'} text={'Service you can find vacant classroom'}
+          src={'https://aogakuempty.deta.dev/'} />
         <WorksList img={tadable} name={'Tadable'} text={'Service to find where to read free comics'}
           src={'https://tadable.herokuapp.com/'} />
         <WorksList img={baccarat} name={'Baccarat Ranking'} text={'Ranking system for school festival'}

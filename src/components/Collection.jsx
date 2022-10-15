@@ -13,7 +13,6 @@ import PalmerLuckey from '../static/img/palmerluckey.jpeg'
 import judidench from '../static/img/judidench.png'
 import cantina from '../static/img/cantina.jpeg'
 import bobafett from '../static/img/bobafett.png'
-// import soon from '../static/img/comingsoon.png'
 
 const Collection = () => {
   return (
