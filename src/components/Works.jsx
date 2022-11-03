@@ -15,6 +15,7 @@ import virtualcampus from '../static/img/virtualcampus.png'
 import githubmicro from '../static/img/githubmicro.png'
 import cynical from '../static/img/cynicalnight.png'
 import empty from '../static/img/empty.png'
+import timer from '../static/img/baccarat-timer.png'
 
 
 
@@ -24,6 +25,7 @@ const Works = () => {
       <NavBar/>
       <h1 className="section-title">Works</h1>
       <div className="List-Wrapper">
+        <WorksList img={timer} name={'Baccarat-Timer'} text={'Command line Warning-bell timer for school festival'}/>
         <WorksList img={empty} name={'アオガク空き教室'} text={'Service you can find vacant classroom'}
           src={'https://aogakuempty.deta.dev/'} />
         <WorksList img={tadable} name={'Tadable'} text={'Service to find where to read free comics'}
