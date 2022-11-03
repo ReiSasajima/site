@@ -25,7 +25,7 @@ const Works = () => {
       <NavBar/>
       <h1 className="section-title">Works</h1>
       <div className="List-Wrapper">
-        <WorksList img={timer} name={'Baccarat-Timer'} text={'Command line Warning-bell timer for school festival'}/>
+        <WorksList img={timer} name={'Baccarat-Timer'} text={'Command line Warning-bell timer for school festival'} src={'https://github.com/ReiSasajima/baccarat-timer'}/>
         <WorksList img={empty} name={'アオガク空き教室'} text={'Service you can find vacant classroom'}
           src={'https://aogakuempty.deta.dev/'} />
         <WorksList img={tadable} name={'Tadable'} text={'Service to find where to read free comics'}
